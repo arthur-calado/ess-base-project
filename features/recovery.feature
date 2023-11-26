@@ -24,3 +24,4 @@ Scenario: solicitação de recuperação de conta / senha
 Given Um usuário não tem mais acesso ao e-mail associado à conta.
 When O usuário seleciona a opção “Não tenho mais acesso ao meu e-mail”.
 Then O sistema exibe uma mensagem orientando o usuário a entrar em contato com os desenvolvedores para receber assistência na recuperação da conta.
+
